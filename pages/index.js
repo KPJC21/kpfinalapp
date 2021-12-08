@@ -62,10 +62,6 @@ const Home = ({allData}) => {
 
                 ))}
           </div>
-          <div className="post" backgroundsize="70" bgcolor="gray">
-                <p>I put up a post on my WordPress site</p>
-              
-          </div>
       <div style={styles.content}>
         <div style={styles.infoTextContainer}>
           <Heading style={{ fontSize: "40px" }}
