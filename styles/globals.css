@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  box-sizing: content-box;
+  color: crimson;
+}
+
+.info {
+  font-size: 32px;
+  font-style: oblique;
+  box-sizing: content-box;
+  color: orangered;
+}
+
+.infoBox {
+  border-style: dashed;
+  border-width: 20px;
+  border-color: steelblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.background {
+  color: slateblue;
+}
+
+
+

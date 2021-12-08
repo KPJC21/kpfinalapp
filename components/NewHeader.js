@@ -25,6 +25,10 @@ import DarkModeSwitch from './DarkModeSwitch';
 
 const Links = [
   {
+    label:'Home',
+    url:'/#'
+  },
+  {
     label:'To Do',
     url:'/todo'
   },
