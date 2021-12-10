@@ -29,6 +29,12 @@ a {
   color: orangered;
 }
 
+.info2 {
+  border-top: solid;
+  border-width: 20px;
+  border-color: steelblue;
+}
+
 .infoBox {
   border-style: dashed;
   border-width: 20px;
@@ -40,6 +46,7 @@ a {
 .background {
   color: slateblue;
 }
+
 
 
 

@@ -53,15 +53,19 @@ const Home = ({allData}) => {
       <h1 className="title">Welcome to Organize.com!</h1>
       <h2 className="info">Here you can make lists of what jobs or activities you want to do, events you plan on doing, and contacts you want to reach out to.</h2>
       <h2 className="info">You can delete, update, or add to either of these three lists anytime you'd like. So make sure to use this to better schedule your life!</h2>    
-          <div className="list-group">
-                {allData.map((mydata) => (
+      <div className="info2">
+          <h2>Link to Wordpress:</h2>
+              <div className="list-group">
+              
+                    {allData.map((mydata) => (
+                        
+                    <Link href={`/${mydata.id}`} key={mydata.id} >
+                    <a className="list-group-item list-group-item-action">{mydata.name}</a>
+                    </Link>
 
-                <Link href={`/${mydata.id}`} key={mydata.id} >
-                <a className="list-group-item list-group-item-action">{mydata.name}</a>
-                </Link>
-
-                ))}
-          </div>
+                    ))}
+              </div>
+              </div>
       <div style={styles.content}>
         <div style={styles.infoTextContainer}>
           <Heading style={{ fontSize: "40px" }}
