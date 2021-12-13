@@ -28,7 +28,7 @@ export default function Entry({ itemData }) {
       <article className="card col-6">
         <div className="card-body">
           <h1 className="card-title">{itemData.post_title}</h1>
-          <h3 className="card-body">{itemData.post_content}</h3>
+          <h3 className="card-body" dangerouslySetInnerHTML={{__html: itemData.post_content}} />
           <h5 className="card-body">{itemData.post_status}</h5>
           <h5 className="card-body">{itemData.post_date_gmt}</h5>
           <Link href={`${itemData?.guid}`}>

@@ -47,6 +47,19 @@ a {
   color: slateblue;
 }
 
+.card-body {
+  color: blue;
+  background-color: gray;
+  border: aqua;
+  border-style: double;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px 10px 10px 10px;
+}
+
 
 
 
